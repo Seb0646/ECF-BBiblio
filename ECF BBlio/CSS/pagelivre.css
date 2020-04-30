@@ -1,0 +1,255 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+
+
+/* Header Section */
+
+
+header {
+    height: 180px;
+}
+
+.logo{
+    width : 100px;
+    position: absolute;
+    left : 5%;
+    top : 2%;
+}
+
+.searchBorder{
+    width: 100%;
+    border: 3px solid #1972A5;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.search{
+    width: 40%;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.account{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.accountlogo{
+    position: absolute;
+    top: 6%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+
+}
+
+
+/* End of Header section */
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/* Container Section */
+
+.couvertureLivre{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    height: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.categoriebook{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    font-size: xx-large;
+    transform: translate(-50%, -50%);
+}
+
+.titrebook{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: larger;
+    transform: translate(-50%, -50%);
+}
+
+.auteurbook{
+    position: absolute;
+    top: 35%;
+    left: 31%;
+    font-size: larger;
+    transform: translate(-50%, -50%);
+}
+
+.ratebook{
+    position: absolute;
+    top: 41%;
+    left: 30%;
+    font-size: larger;
+    transform: translate(-50%, -50%);
+}
+
+.buylink{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    font-size: larger;
+    transform: translate(-50%, -50%);
+}
+
+.biotitle{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.bioauteur{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    height: 400px;
+    width: 30%;
+    border: 3px solid #1972A5;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+}
+
+.detail1{
+    height: 100%; 
+    width: 100%;
+    border: none;
+}
+
+
+.resumetitle{
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.resumebook{
+    position: absolute;
+    top: 90%;
+    left: 75%;
+    height: 400px;
+    width: 30%;
+    border: 3px solid #1972A5;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+}
+
+/* End of Container section */
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/* Footer Section */
+
+footer {
+    background-color: #1972A5;
+    position: absolute;
+    margin-top: 100vh;
+    width: 100%;
+    height: 150px;
+}
+
+.linkfooter1{
+    position: absolute;
+    color: black;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    bottom: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+.linkfooter2{
+    position: absolute;
+    color: black;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    bottom: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+.linkfooter3{
+    position: absolute;
+    color: black;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+.linkfooter4{
+    position: absolute;
+    color: black;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    bottom: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+.linkfooter5{
+    position: absolute;
+    color: black;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    bottom: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+.fbfooter{
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    width: 40px;
+}
+
+.twittfooter{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    width: 40px;
+}
+
+.instafooter{
+    position: absolute;
+    left: 55%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    width: 40px;
+}

@@ -1,0 +1,247 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+
+
+/* Header Section */
+
+
+header {
+    height: 180px;
+}
+
+.logo{
+    width : 100px;
+    position: absolute;
+    left : 5%;
+    top : 2%;
+}
+
+.searchBorder{
+    width: 100%;
+    border: 3px solid #1972A5;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.search{
+    width: 40%;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.account{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.accountlogo{
+    position: absolute;
+    top: 6%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+
+}
+
+
+/* End of Header section */
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/* Container Section */
+
+.bestbook{
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: auto;
+    top: 400px;
+    padding-bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-color: #1972A5;
+}
+
+.booksize{
+    width: 30%;
+}
+
+.link{
+    color: black;
+    text-decoration: underline;
+}
+
+.books{
+    width: 25%;
+    text-align: center;
+}
+
+.newstitle{
+    position: absolute;
+    top: 65%;
+    left: 18%;
+}
+
+.news{
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #1972A5;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.divfb{
+    position: absolute;
+    width: 25%;
+    height: 17%;
+    top: 80%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #1972A5;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.divtwitter{
+    position: absolute;
+    width: 25%;
+    height: 17%;
+    top: 100%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #1972A5;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.divinsta{
+    position: absolute;
+    width: 20%;
+    height: 405px;
+    top: 90%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #1972A5;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.logoreseau{
+    position: absolute;
+    width:10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* End of Container section */
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/* Footer Section */
+
+footer {
+    background-color: #1972A5;
+    position: absolute;
+    margin-top: 100vh;
+    width: 100%;
+    height: 150px;
+}
+
+.linkfooter1{
+    position: absolute;
+    color: black;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    bottom: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+.linkfooter2{
+    position: absolute;
+    color: black;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    bottom: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+.linkfooter3{
+    position: absolute;
+    color: black;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+.linkfooter4{
+    position: absolute;
+    color: black;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    bottom: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+.linkfooter5{
+    position: absolute;
+    color: black;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    bottom: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+.fbfooter{
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    width: 40px;
+}
+
+.twittfooter{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    width: 40px;
+}
+
+.instafooter{
+    position: absolute;
+    left: 55%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    width: 40px;
+}

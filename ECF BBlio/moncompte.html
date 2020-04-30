@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Accueil BBiblio</title>
+    <link rel="stylesheet" href="css/moncompte.css">
+</head>
+
+<body>
+
+        <header>
+            <a href="accueil.html"><img class="logo" src="img/logo.png"></a>
+            <div class="search">
+                <input type="text" class="searchBorder" placeholder="Rechercher">
+            </div>
+            <div>
+                <a href="moncompte.html"><img class="accountlogo" src="img/account.png"></a>
+                <a href="moncompte.html">
+                    <p class="account">Mon Compte / Inscription</p>
+                </a>
+            </div>
+        </header>
+
+        <p class="subtitle">S'identifier ou créer un compte</p>
+
+        <div class="squareblue">
+            <div class="user">
+                <label class="usertitle">Identifiant</label>
+                <input type="text" name="identifier" id="identifier" size="30" required>
+            </div>
+
+            <div class="password">
+                <label class="passwordtitle">Mot de passe</label>
+                <input type="text" name="mdp" id="mdp" size="30" required>
+            </div>
+
+            <div>
+                <input type="submit" class="submit" value="Valider" id="valid" onclick="connexion()">
+            </div>
+
+            <div class="newuser">
+                <p>Vous souhaitez vous inscrire ? veuillez cliquer <a class="linkhere" href="inscription.html">ici</a></p>
+            </div>
+
+            <div class="passwordforgot">
+                <p>Mot de passe oublié ? veuillez cliquer <a class="linkhere" href="mailto:bbiblio@gmail.com">ici</a></p>
+            </div>
+         
+        </div>
+
+        
+        <footer>
+                <a href="quisommenous.html"><button class="linkfooter1"><span>Qui somme nous ?</span></button></a>
+                <a href="inscription.html"><button class="linkfooter2"><span>Inscription</span></button></a>
+                <a href="reglement.html"><button class="linkfooter3"><span>Règlement</span></button></a>
+                <a href="contact.html"><button class="linkfooter4"><span>Contact</span></button></a>
+                <a href="faq.html"><button class="linkfooter5"><span>F.A.Q</span></button></a>
+                <a href="https://facebook.com/" target="_blank"><img class="fbfooter" src="img/logofb.png"></a>
+                <a href="https://twitter.com/" target="_blank"><img class="twittfooter" src="img/logotwitter.png"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="instafooter" src="img/logoinsta.png"></a>
+        </footer>
+
+    <script src="js/connexion.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Inscription BBiblio</title>
+    <link rel="stylesheet" href="css/pagefooter.css">
+</head>
+
+<body>
+
+        <header>
+            <a href="accueil.html"><img class="logo" src="img/logo.png"></a>
+            <div class="search">
+                <input type="text" class="searchBorder" placeholder="Rechercher">
+            </div>
+            <div>
+                <a href="moncompte.html"><img class="accountlogo" src="img/account.png"></a>
+                <a href="moncompte.html">
+                    <p class="account">Mon Compte / Inscription</p>
+                </a>
+            </div>
+        </header>
+
+
+        <p class="subtitle1">Inscription Juré</p>
+
+        <div class="sub1">
+            <div class="subjure">
+                <form>
+                    <div>
+                        <label>* Nom : </label>
+                        <input type="text" name="surnamejure" id="surnamejure" required>
+                    </div><br>
+                    <div>
+                        <label>* Prénom : </label>
+                        <input type="text" name="namejure" id="namejure" required>
+                    </div><br>
+                    <div>
+                        <label">* Age: </label>
+                        <input type="text" name="agejure" id="agejure" required>
+                    </div><br>
+                    <div>
+                        <label>*E-mail: </label>
+                        <input type="email" name="emailjure" id="emailjure" required>
+                    </div><br>
+                    <div>
+                        <p>* Pourquoi souhaitez vous être juge ?<br><br> Quelle sont vos expériences dans le domaine ?</p>
+                        <br>
+                        <textarea id="msgjure" name="user_message" rows="12" cols="60" required></textarea>
+                    </div><br>
+                    <div>
+                        <input type="radio" id="reglementjure" value="reglementjure" required>
+                        <label>J'accepte les conditions du règlement du site <a href="reglement.html"target="_blank"> Lire règlement</a></label>
+                    </div><br>
+                    <div>
+                        <button type="button" onclick="inscriptionjure()">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <p class="subtitle2">Inscription Auteur/Editeur</p>
+
+        <div class="sub2">
+            <div class="subauteur">
+                <form>
+                    <div>
+                        <label>* Nom : </label>
+                        <input type="text" name="surnameauteur" id="surnameauteur" required>
+                    </div><br><br>
+                    <div>
+                        <label>* Prénom : </label>
+                        <input type="text" name="nameauteur" id="nameauteur" required>
+                    </div><br><br>
+                    <div>
+                        <label>* Editeur: </label>
+                        <input type="text" name="ageauteur" id="ageauteur" required>
+                    </div><br><br>
+                    <div>
+                        <label>* E-mail: </label>
+                        <input type="email" name="emailauteur" id="emailauteur" required>
+                    </div><br><br>
+                    <div>
+                        <input type="radio" id="reglementauteur" value="reglementauteur">
+                        <label>J'accepte les conditions du règlement du site <a href="reglement.html"target="_blank"> Lire règlement</a></label>
+                    </div><br>
+                    <div>
+                        <button type="button" onclick="inscriptionjure()">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    <footer>
+        <a href="quisommenous.html"><button class="linkfooter1"><span>Qui somme nous ?</span></button></a>
+        <a href="inscription.html"><button class="linkfooter2"><span>Inscription</span></button></a>
+        <a href="reglement.html"><button class="linkfooter3"><span>Règlement</span></button></a>
+        <a href="contact.html"><button class="linkfooter4"><span>Contact</span></button></a>
+        <a href="faq.html"><button class="linkfooter5"><span>F.A.Q</span></button></a>
+        <a href="https://facebook.com/" target="_blank"><img class="fbfooter" src="img/logofb.png"></a>
+        <a href="https://twitter.com/" target="_blank"><img class="twittfooter" src="img/logotwitter.png"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img class="instafooter" src="img/logoinsta.png"></a>
+    </footer>
+
+    <script src="js/inscription.js"></script>
+</body>
+
+</html>

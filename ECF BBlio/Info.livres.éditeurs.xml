@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+<Liste>
+	<Juré id="95">
+		<Livre id="001">
+			<Auteur>John, Doe</Auteur>
+			<Titre>Tout sur Javascript</Titre>
+			<Genre>Informatique</Genre>
+			<Style>7/10</Style>
+			<Illustration>6/10</Illustration>
+			<MiseenPage>9/10</MiseenPage>
+			<Emotion>8/10</Emotion>
+		</Livre>
+	</Juré>
+		
+   <Juré id="52">
+		<Livre id="041">
+			<Auteur>John, Doe</Auteur>
+			<Titre>Tout sur XML</Titre>
+			<Genre>Informatique</Genre>
+			<Style>7/10</Style>
+			<Illustration>6/10</Illustration>
+			<MiseenPage>9/10</MiseenPage>
+			<Emotion>8/10</Emotion>
+		</Livre>
+	</Juré>
+</Liste>
